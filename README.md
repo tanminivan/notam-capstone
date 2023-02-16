@@ -1,10 +1,10 @@
 # NOTAM Capstone Project
 
-## Things to think about
+## Questions to ask
 
 * How can I break this problem down into smaller chunks?
 * What is the most simple thing I can solve?
-* How am I tracking the problems/questions I am encountering?
+* How am I tracking the problems/questions/unknowns I am encountering?
 * What are the edge cases?
 * How can I show that the algorithm that I'm implementing is "correct"?
 * How can I test iterations of the algorithm to know that one is better than another?
@@ -15,11 +15,17 @@
 Try these departure/destination pairs to see how your algorithm handles them.
 
 KOUN KSWO
+
 KOUN KLAW
+
 KLAX KJFK
+
 KEYW BRW
+
 1K4 1K5
+
 KEYW BRW
+
 
 ## Sample NOTAM dataset
 
