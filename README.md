@@ -14,18 +14,17 @@
 
 Try these departure/destination pairs to see how your algorithm handles them.
 
-KOUN KSWO
+KOUN → KSWO
 
-KOUN KLAW
+KOUN → KLAW
 
-KLAX KJFK
+KLAX → KJFK
 
-KEYW BRW
+KEYW → BRW
 
-1K4 1K5
+1K4 → 1K5
 
-KEYW BRW
-
+KEYW → BRW
 
 ## Sample NOTAM dataset
 
@@ -41,10 +40,12 @@ If you use some of the NOTAMs below to test, you may want to alter a few things:
             [1]                                            [2]
 ```
 [1] The NOTAM might have a different airport code. You may want to alter this
-to fit one of your departure/destination/enroute airports.
+to fit one of your departure/destination/enroute airports if you are
+considering location in your ranking.
 
 [2] The NOTAM has a date that it is effective. You may want to alter this time
-so that it is no longer expired.
+to be expired/unexpired to see how it affects your ranking. There is no need to
+consider past NOTAMs.
 
 ## Important NOTAMs to test
 
