@@ -53,3 +53,17 @@ Insert these into your testing data to see how they rank!
 ```
 !RNO 01/242 N86 RWY 17/35 CLSD 2301311809-PERM
 ```
+
+```
+!GOK 02/002 GOK AD AP WILDLIFE HAZARD DEER 2302081859-2304282359
+```
+
+```
+!DCA 01/324 0V4 AD AP FUEL NOT AVBL 2101211610-PERM
+```
+
+## References
+
+* [NOTAM Basics for Pilots](https://www.faa.gov/sites/faa.gov/files/about/initiatives/notam/what_is_a_notam/Pilots_NOTAM_primer_for_2021.pdf)
+* [Appendix A: NOTAM Examples](https://www.faa.gov/air_traffic/publications/atpubs/notam_html/appendix_a.html)
+
