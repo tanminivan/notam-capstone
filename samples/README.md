@@ -1,13 +1,13 @@
 # Sample NOTAMs
 
-# LHM-OVE
+## LHM-OVE
 
 This one has a big TFR (Temporary Flight Restriction) in it.
 
-# VES
+## VES
 
 Birds.
 
-# GOK-WDG
+## GOK-WDG
 
 Lots of stuff here. Closed runways, wildlife, obsticles, and a TFR.
