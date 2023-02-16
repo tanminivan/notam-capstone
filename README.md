@@ -3,7 +3,8 @@
 ## Questions to ask
 
 * How can I break this problem down into smaller chunks?
-* What is the most simple thing I can solve?
+* What is the simplest thing I can solve?
+* What if I compared just two NOTAMs?
 * How am I tracking the problems/questions/unknowns I am encountering?
 * What are the edge cases?
 * How can I show that the algorithm that I'm implementing is "correct"?
@@ -28,7 +29,7 @@ KEYW → BRW
 
 ## Sample NOTAM dataset
 
-See the `samples` directory for some sample flights that include NOTAMs.
+See the `samples` directory for full-flight sample NOTAMs.
 
 ## Using Sample NOTAMs
 
@@ -47,9 +48,10 @@ considering location in your ranking.
 to be expired/unexpired to see how it affects your ranking. There is no need to
 consider past NOTAMs.
 
-## Important NOTAMs to test
+## NOTAMs worth testing
 
-Insert these into your testing data to see how they rank!
+Insert these into your testing data to see how they rank! I'll be updating
+this list as I find more, so watch this space.
 
 ```
 !RNO 01/242 N86 RWY 17/35 CLSD 2301311809-PERM
@@ -61,6 +63,26 @@ Insert these into your testing data to see how they rank!
 
 ```
 !DCA 01/324 0V4 AD AP FUEL NOT AVBL 2101211610-PERM
+```
+
+```
+!GNV 02/086 68J AD AP CLSD 1802091424-PERM
+```
+
+```
+!VLD 02/015 VLD SVC TWR FREQ 120.9 CHANGED TO 128.35 2302231200-PERM
+```
+
+```
+!BNA 09/511 JWN COM UNICOM FREQ 122.7 U/S 2109231712-PERM
+```
+
+```
+!MCN 05/552 IFM NAV VOR U/S 2205241348-PERM
+```
+
+```
+!VNY 12/033 VNY NAV VOR/DME 301-325 BEYOND 10NM UNUSABLE 2212151422-PERM
 ```
 
 ## References
